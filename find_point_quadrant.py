@@ -10,8 +10,8 @@ elif x<0 and y<0:
 elif x>0 and y<0:
     print(f"({x}, {y}) in the Fourth Quadrant")
 elif x==0:
-    print(f"({x}, {y}) on the X axis")
-elif y==0:
     print(f"({x}, {y}) on the Y axis")
+elif y==0:
+    print(f"({x}, {y}) on the X axis")
 else:
-    print(f"({x}, {y}) the origin")
+    print(f"({x}, {y}) is the origin")
